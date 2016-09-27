@@ -131,7 +131,7 @@
         "id": "widgets_Coordinate_Widget_26",
         "name": "Coordinate",
         "label": "Coordinate",
-        "visible": false
+        "visible": true
       },
       {
         "uri": "widgets/Scalebar/Widget",
