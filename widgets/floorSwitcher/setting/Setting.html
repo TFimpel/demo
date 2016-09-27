@@ -1,0 +1,97 @@
+<div style="width:100%;height:100%;">
+  <div class="settings-section" data-dojo-attach-point="searchesSection">
+    <table class="setting-table input-table" cellspacing="5">
+      <tbody>
+        <tr>
+		  <td>
+			<b>Buldings Layer</b>
+		  </td>
+		</tr>
+        <tr>
+		  <td>
+			<label for="dtb">Map layer number <small>(counting operational layers from bottom upwards, starting at 0)</small></label>
+		  </td>
+		  <td>
+		    <input data-dojo-attach-point="buildingsLayerNumber" data-dojo-type="dijit/form/TextBox" />
+		  </td>
+		</tr>
+		<tr>
+          <td>
+			<label for="dtb">Building ID attribute field name <small>(used to find floor levels and in display panel)</small></label> 
+		  </td>
+		  <td>
+			<input data-dojo-attach-point="buildingID" data-dojo-type="dijit/form/TextBox" />
+          </td>
+		</tr>
+		<tr>
+          <td>
+			<label for="dtb">Building Name attribute field name <small>(used in display panel)</small></label>
+		  </td>
+		  <td>
+			<input data-dojo-attach-point="buidlingName" data-dojo-type="dijit/form/TextBox" />
+          </td>
+		</tr>
+		
+		<tr>
+		  <td>
+		    <hr>
+			<b>Rooms Layer</b>
+		  </td>
+		</tr>
+        <tr>
+		  <td>
+			<label for="dtb">Map layer number <small>(counting operational layers from bottom upwards, starting at 0)</small></label>
+		  </td>
+		  <td>
+			<input  data-dojo-attach-point="roomsLayerNumber" data-dojo-type="dijit/form/TextBox" />
+		  </td>
+		</tr>
+		<tr>
+		  <td>
+		  <i><small>Note: Building and Floor attribute field names need to be the same as for Walls Layer.</small></i>
+		  </td>
+		</tr>
+
+		<tr>
+		  <td>
+		    <hr>
+			<b>Walls Layer</b>
+		  </td>
+		</tr>
+        <tr>
+		  <td>
+			<label for="dtb">Map layer number <small>(counting operational layers from bottom upwards, starting at 0)</small></label>
+		  </td>
+		  <td>
+			<input data-dojo-attach-point="wallsLayerNumber" data-dojo-type="dijit/form/TextBox" />
+		  </td>
+		</tr>
+        <tr>
+		  <td>
+			<label for="dtb">Building ID attribute field name <small>(used to find floor levels and in display panel)</small></label>
+		  </td>
+		  <td>
+			<input data-dojo-attach-point="wallsLayerBldgIDField" data-dojo-type="dijit/form/TextBox" />
+		  </td>
+		</tr>
+        <tr>
+		  <td>
+			<label for="dtb">Floor level attribute field name <small>(used to find floor levels and in display panel)</small></label>
+		  </td>
+		  <td>
+			<input data-dojo-attach-point="floorID" data-dojo-type="dijit/form/TextBox" />
+		  </td>
+		</tr>
+        <tr>
+		  <td>
+			<label for="dtb">Floor level sort field attribute field name <small>(used to sort available floors.)</small></label>
+		</td>
+		<td>
+			<input data-dojo-attach-point="wallsLayerSortField" data-dojo-type="dijit/form/TextBox" />
+		  <td>
+		</tr>
+		
+      </tbody>
+    </table>
+  </div>
+</div>

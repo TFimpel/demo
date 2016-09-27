@@ -1,0 +1,26 @@
+{
+  "name": "floorSwitcher",
+  "2D": true,
+  "3D": false,
+  "platform": "HTML",
+  "version": "2.0.1",
+  "wabVersion": "2.0.1",
+  "author": "Tobias Fimpel",
+  "description": "This is the floorSwitcher custom widget",
+  "copyright": "",
+  "license": "http://www.apache.org/licenses/LICENSE-2.0",
+  "properties": {
+    "keepConfigAfterMapSwitched": true,
+    "supportMultiInstance": false,
+		"inPanel":true,
+		"hasLocale": false,
+		"hasStyle":true,
+		"hasConfig":true,
+		"hasUIFile":true,
+		"hasSettingPage":true,
+		"hasSettingUIFile":true,
+		"hasSettingLocale":false,
+		"hasSettingStyle":true,
+		"IsController":false
+  }
+}

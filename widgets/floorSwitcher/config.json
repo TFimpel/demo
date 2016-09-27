@@ -1,0 +1,10 @@
+{
+    "configText":"test",
+    "buildingID":"BUILDING_NUMBER",
+    "buidlingName":"NAME",
+    "floorID":"FLOOR",
+    "buildingsLayerNumber":"0",
+    "wallsLayerNumber":"2",
+    "roomsLayerNumber":"1",
+    "wallsLayerSortField":"OBJECTID"
+}

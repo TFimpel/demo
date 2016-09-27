@@ -1,0 +1,292 @@
+{
+  "layerInfos": [
+    {
+      "name": "Walls",
+      "id": "MNGISLIS_WAB_DEMO_4123",
+      "layer": {
+        "url": "https://services.arcgis.com/8df8p0NlLFEShl0r/arcgis/rest/services/MNGISLIS_WAB_DEMO/FeatureServer/0"
+      },
+      "show": true
+    },
+    {
+      "name": "Rooms",
+      "id": "MNGISLIS_WAB_DEMO_7483",
+      "layer": {
+        "url": "https://services.arcgis.com/8df8p0NlLFEShl0r/arcgis/rest/services/MNGISLIS_WAB_DEMO/FeatureServer/1",
+        "fields": [
+          {
+            "name": "SITE",
+            "alias": "SITE",
+            "show": true
+          },
+          {
+            "name": "BUILDING",
+            "alias": "BUILDING",
+            "show": true
+          },
+          {
+            "name": "FLOOR",
+            "alias": "FLOOR",
+            "show": true
+          },
+          {
+            "name": "RMNUMB",
+            "alias": "RMNUMB",
+            "show": true
+          },
+          {
+            "name": "ROOM_ID",
+            "alias": "ROOM_ID",
+            "show": true
+          },
+          {
+            "name": "SITE_BUILDING_FLOOR",
+            "alias": "SITE_BUILDING_FLOOR",
+            "show": true
+          },
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": false
+          },
+          {
+            "name": "GLOBALID",
+            "alias": "GLOBALID",
+            "show": false
+          }
+        ]
+      },
+      "show": true
+    },
+    {
+      "name": "Buildings",
+      "id": "MNGISLIS_WAB_DEMO_3404",
+      "layer": {
+        "url": "https://services.arcgis.com/8df8p0NlLFEShl0r/arcgis/rest/services/MNGISLIS_WAB_DEMO/FeatureServer/2"
+      },
+      "show": true
+    },
+    {
+      "name": "Room details",
+      "id": "MNGISLIS_WAB_DEMO_708",
+      "layer": {
+        "url": "http://services.arcgis.com/8df8p0NlLFEShl0r/arcgis/rest/services/MNGISLIS_WAB_DEMO/FeatureServer/4",
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": false
+          },
+          {
+            "name": "SITE",
+            "alias": "SITE",
+            "show": false
+          },
+          {
+            "name": "BUILDING",
+            "alias": "BUILDING",
+            "show": false
+          },
+          {
+            "name": "BLDG_DESC",
+            "alias": "BUILDING NAME",
+            "show": false
+          },
+          {
+            "name": "ROOM",
+            "alias": "ROOM",
+            "show": false
+          },
+          {
+            "name": "ROOM_ID",
+            "alias": "ROOM_ID",
+            "show": true
+          },
+          {
+            "name": "FLOOR",
+            "alias": "FLOOR",
+            "show": false
+          },
+          {
+            "name": "ROOM_ALLOC_ID",
+            "alias": "ROOM_ALLOC_ID",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "ROOM_BILLING_ID",
+            "alias": "ROOM_BILLING_ID",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "CAPACITY",
+            "alias": "CAPACITY",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "LEASE",
+            "alias": "LEASE",
+            "show": true
+          },
+          {
+            "name": "LEASE_DESC",
+            "alias": "LEASE_DESC",
+            "show": true
+          },
+          {
+            "name": "TENANT",
+            "alias": "TENANT",
+            "show": true
+          },
+          {
+            "name": "GROUP_DESC",
+            "alias": "GROUP_DESC",
+            "show": true
+          },
+          {
+            "name": "FUNC_GRP_NAME",
+            "alias": "FUNC_GRP_NAME",
+            "show": true
+          },
+          {
+            "name": "FUNCTION_DESC",
+            "alias": "FUNCTION_DESC",
+            "show": true
+          },
+          {
+            "name": "USE_GRP_NAME",
+            "alias": "USE_GRP_NAME",
+            "show": true
+          },
+          {
+            "name": "USE_CODE_DESC",
+            "alias": "USE_CODE_DESC",
+            "show": true
+          },
+          {
+            "name": "PERCENT_",
+            "alias": "PERCENT",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "RRC_DESC",
+            "alias": "RRC_DESC",
+            "show": true
+          },
+          {
+            "name": "VP_DESC",
+            "alias": "VP_DESC",
+            "show": true
+          }
+        ]
+      },
+      "show": false
+    },
+    {
+      "name": "Occupants",
+      "id": "MNGISLIS_WAB_DEMO_4445",
+      "layer": {
+        "url": "http://services.arcgis.com/8df8p0NlLFEShl0r/arcgis/rest/services/MNGISLIS_WAB_DEMO/FeatureServer/3",
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": false
+          },
+          {
+            "name": "ROOM_ID",
+            "alias": "ROOM_ID",
+            "show": true
+          },
+          {
+            "name": "CAMPUS",
+            "alias": "CAMPUS",
+            "show": false
+          },
+          {
+            "name": "CAMPUS_NAME",
+            "alias": "CAMPUS_NAME",
+            "show": false
+          },
+          {
+            "name": "BUILDING_NUMBER",
+            "alias": "BUILDING_NUMBER",
+            "show": false
+          },
+          {
+            "name": "BUILDING_NAME",
+            "alias": "BUILDING_NAME",
+            "show": false
+          },
+          {
+            "name": "BUILDING_FLOOR",
+            "alias": "BUILDING_FLOOR",
+            "show": false
+          },
+          {
+            "name": "BUILDING_ROOM",
+            "alias": "BUILDING_ROOM",
+            "show": false
+          },
+          {
+            "name": "EMPLOYEEID",
+            "alias": "Employee ID (fake)",
+            "show": true
+          },
+          {
+            "name": "First_Name",
+            "alias": "First Name",
+            "show": true
+          },
+          {
+            "name": "Last_Name",
+            "alias": "Last Name",
+            "show": true
+          },
+          {
+            "name": "Telephone",
+            "alias": "Phone",
+            "show": true
+          },
+          {
+            "name": "Email",
+            "alias": "Email",
+            "show": true
+          },
+          {
+            "name": "JOBCLASS",
+            "alias": "Job class",
+            "show": true
+          }
+        ]
+      },
+      "show": false
+    }
+  ],
+  "table": {
+    "pageSizeOptions": [
+      25,
+      50,
+      100,
+      1000
+    ]
+  },
+  "hideExportButton": true,
+  "initiallyExpand": false,
+  "filterByMapExtent": false
+}

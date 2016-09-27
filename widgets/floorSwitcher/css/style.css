@@ -1,0 +1,105 @@
+.buildingHeading{
+	font: normal normal bold 16px arial;
+	margin-top: 4px;
+}
+
+.buidlingFunctionContainer{
+	text-align: right;
+	border-bottom: 1px solid lightgray;
+    padding-bottom: 2px;
+}
+
+.persistButton {
+	margin: 0px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 4px 4px;
+    border: 1px solid #333;
+    border-radius: 2px;
+    background: white;
+    font: normal normal 14px arial;
+    color: #333;
+    text-decoration: none;
+}
+
+.removeButton {
+	margin: 0px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 4px 4px;
+    border: 1px solid #000;
+    border-radius: 2px;
+    background: #333;
+    font: normal normal 14px arial;
+    color: #f1f1f1;
+    text-decoration: none;
+}
+
+.floorButton {
+	margin: 2px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 4px 4px;
+    border: 1px solid #333;
+    border-radius: 2px;
+    background: white;
+    font: normal normal 14px arial;
+    color: #333;
+    text-decoration: none;
+}
+
+.selectedFloorButton {
+	margin: 1px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 4px 4px;
+    border: 1px solid #000;
+    border-radius: 2px;
+    background: #333;
+    font: normal normal bold 16px arial;
+    color: #f1f1f1;
+    text-decoration: none;
+}
+
+.modeButton {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 4px 4px;
+    border: 1px solid #d9e1f4;
+    font: normal normal 14px arial;
+    color: #6d6e70;
+    text-decoration: none;
+    border-top: 1px solid #d3d3d3;
+    border-left: 1px solid #d3d3d3;
+    border-right: 1px solid #d3d3d3;
+    border-bottom: 0px solid #d3d3d3;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    background: white
+}
+
+.selectedModeButton {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 4px 4px;
+    font: normal normal 14px arial;
+    color: #f1f1f1;
+    text-decoration: none;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 0px solid white;
+    background: #333;
+	border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+#floorList{
+    border-top: 1px solid #333;
+}
