@@ -33,7 +33,7 @@ define([
     "dojo/_base/array",
     "dojo/query",
     'jimu/dijit/LoadingIndicator',
-    './_ResourceManager',
+    './ResourceManager',
     './_TableFunctionController',
     './utils'
   ],
